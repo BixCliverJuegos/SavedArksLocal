@@ -1,3 +1,6 @@
+crear carpeta-
+git clone https://github.com/BixCliverJuegos/SavedArksLocal.git
+
 -actualizar
 git add .
 git commit -m "mis cambios"
