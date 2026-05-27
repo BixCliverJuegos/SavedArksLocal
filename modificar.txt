@@ -1,5 +1,22 @@
-git init
+-actualizar
 git add .
-git commit -m "Backup de mi partida de ARK"
-git remote add origin https://github.com/BixCliverJuegos/SavedArksLocal.git
-git push -u origin main
+git commit -m "mis cambios"
+git push origin main
+
+-si hay conflictos
+git fetch origin
+git reset --hard origin/main
+
+-ver estado actual
+git fetch origin
+git status
+
+-ver historial de commits
+git log --oneline -5
+
+
+-recuperar cambios guardados
+git stash pop
+
+-ver qué remote está configurado
+git remote -v
